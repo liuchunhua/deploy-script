@@ -3,7 +3,7 @@ export SPARK_MASTER_HOST=10.186.106.173
 export SPARK_MASTER_PORT=7077
 export SPARK_MASTER_WEBUI_PORT=8080
 #Standby Masters with ZooKeeper
-$HOME/start-zk.sh
+./start-zk.sh
 export SPARK_DAEMON_JAVA_OPTS="-Dspark.deploy.recoveryMode=ZOOKEEPER -Dspark.deploy.zookeeper.url=127.0.0.1:2181 -Dspark.deploy.zookeeper.dir=$HOME/zookeeper"
 export SPARK_WORKER_CORES=2
 export SPARK_WORKER_DIR=${HOME}/spark/work

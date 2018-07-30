@@ -11,5 +11,5 @@ export SPARK_LOG_DIR=${HOME}/spark/logs
 export SPARK_LOCAL_IP=10.186.106.173
 
 ${SPARK_HOME}/sbin/stop-slave.sh
-${SPARK_HOME}/sbin/start-master.sh
-$HOME/stop-zk.sh
+${SPARK_HOME}/sbin/stop-master.sh
+./stop-zk.sh
