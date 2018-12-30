@@ -20,4 +20,4 @@ PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS="notebook --no-browser"
 	--conf spark.executor.extraClassPath="/usr/hdp/current/hbase-client/lib/*" \
 	--archives hdfs://ambari.master.com:8020/python3.zip#ANACONDA \
 	--jars /mnt/d/sqldeveloper/jdbc/lib/postgresql-42.2.4.jar,/mnt/d/sqldeveloper/jdbc/lib/ojdbc8.jar,/mnt/d/sqldeveloper/jdbc/lib/mysql-connector-java-8.0.11.jar,/mnt/d/sqldeveloper/jdbc/lib/db2jcc4-10.1.jar \
-#	> jupyter.log 2>&1 &
+	> jupyter.log 2>&1 &
